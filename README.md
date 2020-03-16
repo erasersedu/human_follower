@@ -27,6 +27,16 @@ You should see something like that:
 
 `Device at /dev/ttyACM0 has ID H0807228`
 
+If you see:
+
+`Could not open serial Hokuyo`
+
+Then enter:
+
+> sudo adduser <YOUR_USERNAME> dialout
+
+and log out and log back in.
+
 In order to not be confused with sensor USB devices set the specific ID for each device configure the system rules. You can find those in:
 
 /etc/udev/rules.d/
