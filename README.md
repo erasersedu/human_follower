@@ -35,7 +35,7 @@ Then enter:
 
 > sudo adduser <YOUR_USERNAME> dialout
 
-and log out and log back in.
+and restart.
 
 In order to not be confused with sensor USB devices set the specific ID for each device configure the system rules. You can find those in:
 
