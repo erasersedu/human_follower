@@ -13,11 +13,25 @@ The aim of this project is provide some ROS packages to detect a legs person and
 
 Please make sure that some ROS packages are already installed:
 
+Ubuntu 16.04:
+
 - ros-kinetic-urg-node
+
+Ubuntu 18.04:
+
+- ros-melodic-urg-node
+
 
 If not, you can installed with the follow command: 
 
+Ubuntu 16.04:
+
 > sudo apt-get install ros-kinetic-urg-node
+
+Ubuntu 18.04:
+
+> sudo apt-get install ros-melodic-urg-node
+
 
 After that you can check the ID device of the URG sensor.
 
